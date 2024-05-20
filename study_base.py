@@ -19,6 +19,7 @@ print("10   // 4   =", 10 // 4, type(10 // 4), "# 餘數")
 print("10.0 // 4   =", 10.0 // 4, type(10.0 // 4))
 print("10   // 4.0 =", 10 // 4.0, type(10 // 4.0))
 print("10   // 4.5 =", 10 // 4.5, type(10 // 4.5), "# same to math.floor() or int()")
+print("10   // 5.1 =", 10 // 5.1, type(10 // 5.1), "# same to math.floor() or int()")
 
 # 雙引號(") 單引號(') 互相嵌套可以不需要逃逸字元 (這部分跟js一樣)
 print("'kerker' " + "9527")
@@ -99,3 +100,19 @@ print("bool(0.1)  ", RESULT, bool(0.1))
 print("bool(1)    ", RESULT, bool(1))
 print("int(True)  ", RESULT, int(True))
 print("int(False) ", RESULT, int(False))
+
+# 字串
+print("'*' * 4", RESULT, "*" * 4)
+print("""這邊是\"\"\"多行字串
+換行 \
+接續非換行""")
+print('''這邊是\'\'\'多行字串
+換行 \
+接續非換行''')
+print(r"這邊是原始字串\t不會轉譯逃逸字元\n")
+
+# ASCII, ord其實是Unicode
+print("chr(97)      ", RESULT, chr(97))
+print("ord('a')     ", RESULT, ord('a'))
+print("ord('帥')     ", RESULT, ord('帥'))  # 10進制
+print("hex(ord('帥'))", RESULT, hex(ord('帥')))  # 16進制
