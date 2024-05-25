@@ -7,7 +7,7 @@
 
 RESULT = ">>>"
 
-# 計算符號
+print("\n### 計算符號")
 print("5    *  2   =", 5 * 2, type(5 * 2))
 print("5.0  *  2   =", 5.0 * 2, type(5.0 * 2))
 print("5    *  2.0 =", 5 * 2.0, type(5 * 2.0))
@@ -21,21 +21,21 @@ print("10   // 4.0 =", 10 // 4.0, type(10 // 4.0))
 print("10   // 4.5 =", 10 // 4.5, type(10 // 4.5), "# same to math.floor() or int()")
 print("10   // 5.1 =", 10 // 5.1, type(10 // 5.1), "# same to math.floor() or int()")
 
-# 雙引號(") 單引號(') 互相嵌套可以不需要逃逸字元 (這部分跟js一樣)
+print("\n### 雙引號(\") 單引號(') 互相嵌套可以不需要逃逸字元 (這部分跟js一樣)")
 print("'kerker' " + "9527")
 print('"kerker" ' + str(9527))  # 字串與數字不能直接相加, 要透過str()轉換
 
-# 同時指定
+print("\n### 同時指定")
 a = b = c = 5
 print("a = b = c = 5    ", RESULT, a, b, c)
 a, b, c = 4, 5, 6
 print("a, b, c = 4, 5, 6", RESULT, a, b, c)
 
-# 交換
+print("\n### 交換")
 a, b, c = b, c, a
 print("a, b, c = b, c, a", RESULT, a, b, c, "# 交換")
 
-# 多行接續, 使用繼續符號(\), 後面不可以接東西, 註解也不行
+print("\n### 多行接續, 使用繼續符號(\\), 後面不可以接東西, 註解也不行")
 a = 1 \
     + 2 \
     + 3
@@ -48,12 +48,12 @@ print("b", RESULT, b)
 print("id(a)", RESULT, id(a), "# 記憶體位置")
 print("id(b)", RESULT, id(b), "# 記憶體位置")
 
-# 匯入模組
+print("\n### 匯入模組")
 import math
 
 print("math.pi", RESULT, math.pi)
 
-# 查型態, python3之後無int/long/float/double限制, 所以基本上就是無限大
+print("\n### 查型態, python3之後無int/long/float/double限制, 所以基本上就是無限大")
 print("type(10)      ", RESULT, type(10))
 print("type(10.0)    ", RESULT, type(10.0))
 print("type('kerker')", RESULT, type('kerker'))
@@ -61,7 +61,7 @@ print("type(True)    ", RESULT, type(True))
 print("type(False)   ", RESULT, type(False))
 print("type(None)    ", RESULT, type(None))
 
-# 進制轉換
+print("\n### 進制轉換")
 print("0b1010        ", RESULT, 0b1010, "# 二進制")
 print("0o12          ", RESULT, 0o12, "# 八進制")
 print("0xA           ", RESULT, 0x0A, "# 十六進制")
@@ -74,7 +74,7 @@ print("int('A', 16)  ", RESULT, int('A', 16), "# 十六進制轉十進制")
 print("int(10.5)     ", RESULT, int(10.5), "# 轉整數")
 print("float(10)     ", RESULT, float(10), "# 轉浮點數")
 
-# 常用數學方法
+print("\n### 常用數學方法")
 print("abs(-10)        ", RESULT, abs(-10), "# 絕對值")
 print("pow(10, 2)      ", RESULT, pow(10, 2), "# 次方")  # 同 ** 計算子
 print("round(10.5)     ", RESULT, round(10.5), "# 四捨五+1入")  # Bankers' Rounding
@@ -82,11 +82,11 @@ print("round(10.51)    ", RESULT, round(10.51), "# 四捨五+1入")
 print("round(1.055, 2) ", RESULT, round(1.055, 2), "# 四捨五+1入")
 print("round(1.0551, 2)", RESULT, round(1.0551, 2), "# 四捨五+1入")
 
-# 科學記號, 一定是float
+print("\n### 科學記號, 一定是float")
 print("12345e-2", RESULT, 12345e-2)
 print("123.45e2", RESULT, 123.45e2)
 
-# boolean, 0或空資料為False, 其餘皆為True
+print("\n### boolean, 0或空資料為False, 其餘皆為True")
 print("bool(0.0)  ", RESULT, bool(0.0))
 print("bool(0)    ", RESULT, bool(0))
 print("bool(None) ", RESULT, bool(None))
@@ -101,7 +101,7 @@ print("bool(1)    ", RESULT, bool(1))
 print("int(True)  ", RESULT, int(True))
 print("int(False) ", RESULT, int(False))
 
-# 字串
+print("\n### 字串")
 print("'*' * 4", RESULT, "*" * 4)
 print("""這邊是\"\"\"多行字串
 換行 \
@@ -111,7 +111,7 @@ print('''這邊是\'\'\'多行字串
 接續非換行''')
 print(r"這邊是原始字串\t不會轉譯逃逸字元\n")
 
-# ASCII, ord其實是Unicode
+print("\n### ASCII, ord其實是Unicode")
 print("chr(97)      ", RESULT, chr(97))
 print("ord('a')     ", RESULT, ord('a'))
 print("ord('帥')     ", RESULT, ord('帥'))  # 10進制

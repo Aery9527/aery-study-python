@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54e009a9-61ea-42db-88c3-1bbe95935270" name="Changes" comment="study">
-      <change afterPath="$PROJECT_DIR$/study_print.py" afterDir="false" />
+    <list default="true" id="54e009a9-61ea-42db-88c3-1bbe95935270" name="Changes" comment="study print">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study_base.py" beforeDir="false" afterPath="$PROJECT_DIR$/study_base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study_print.py" beforeDir="false" afterPath="$PROJECT_DIR$/study_print.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,21 +52,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.study_base.executor": "Run",
-    "Python.study_print.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.study_base.executor&quot;: &quot;Run&quot;,
+    &quot;Python.study_print.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Python.study_print">
     <configuration name="study_base" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="aery-study-python" />
@@ -139,7 +140,8 @@
       <workItem from="1716018838801" duration="894000" />
       <workItem from="1716019750041" duration="6669000" />
       <workItem from="1716247690173" duration="1575000" />
-      <workItem from="1716297253287" duration="1325000" />
+      <workItem from="1716297253287" duration="1484000" />
+      <workItem from="1716625094838" duration="6166000" />
     </task>
     <task id="LOCAL-00001" summary="study">
       <option name="closed" value="true" />
@@ -181,7 +183,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716249271893</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="study print">
+      <option name="closed" value="true" />
+      <created>1716298731908</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1716298731908</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,10 +210,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="study" />
-    <option name="LAST_COMMIT_MESSAGE" value="study" />
+    <MESSAGE value="study print" />
+    <option name="LAST_COMMIT_MESSAGE" value="study print" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/aery_study_python$study_base.coverage" NAME="study_base Coverage Results" MODIFIED="1716249175959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/aery_study_python$study_print.coverage" NAME="study_print Coverage Results" MODIFIED="1716298590651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/aery_study_python$study_base.coverage" NAME="study_base Coverage Results" MODIFIED="1716629739620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/aery_study_python$study_print.coverage" NAME="study_print Coverage Results" MODIFIED="1716631751094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
