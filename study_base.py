@@ -116,3 +116,13 @@ print("chr(97)      ", RESULT, chr(97))
 print("ord('a')     ", RESULT, ord('a'))
 print("ord('帥')     ", RESULT, ord('帥'))  # 10進制
 print("hex(ord('帥'))", RESULT, hex(ord('帥')))  # 16進制
+
+print("\n### exception handle")
+import sys
+
+sys.stdout.flush()  # 先送出上面緩衝的訊息, 下面stderr才會在stdout之後 (???)
+
+try:
+    print("10 / 0", RESULT, 10 / 0)
+except ZeroDivisionError as e:
+    print("10 / 0", RESULT, e, file=sys.stderr)
