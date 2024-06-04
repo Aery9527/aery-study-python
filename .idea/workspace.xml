@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54e009a9-61ea-42db-88c3-1bbe95935270" name="Changes" comment="study input">
-      <change afterPath="$PROJECT_DIR$/study_eval.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study_math.py" afterDir="false" />
+    <list default="true" id="54e009a9-61ea-42db-88c3-1bbe95935270" name="Changes" comment="study eval">
+      <change afterPath="$PROJECT_DIR$/study_control.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/study_base.py" beforeDir="false" afterPath="$PROJECT_DIR$/study_base.py" afterDir="false" />
     </list>
@@ -58,6 +57,7 @@
     "Python.eval.executor": "Run",
     "Python.study_base (1).executor": "Run",
     "Python.study_base.executor": "Run",
+    "Python.study_control.executor": "Run",
     "Python.study_input.executor": "Run",
     "Python.study_math.executor": "Run",
     "Python.study_print.executor": "Run",
@@ -72,7 +72,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.study_base (1)">
+  <component name="RunManager" selected="Python.study_control">
     <configuration name="study_base (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="aery-study-python" />
       <option name="ENV_FILES" value="" />
@@ -96,7 +96,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="study_base" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="study_control" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="aery-study-python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -110,7 +110,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\nulll\PycharmProjects\aery-study-python\study_base.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/study_control.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -190,11 +190,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.study_control" />
         <item itemvalue="Python.study_base (1)" />
         <item itemvalue="Python.study_math" />
         <item itemvalue="Python.study_eval" />
         <item itemvalue="Python.study_print" />
-        <item itemvalue="Python.study_base" />
       </list>
     </recent_temporary>
   </component>
@@ -223,7 +223,9 @@
       <workItem from="1717073913236" duration="176000" />
       <workItem from="1717206894633" duration="1388000" />
       <workItem from="1717223219102" duration="440000" />
-      <workItem from="1717297728056" duration="4934000" />
+      <workItem from="1717297728056" duration="5128000" />
+      <workItem from="1717333458808" duration="769000" />
+      <workItem from="1717505498939" duration="2200000" />
     </task>
     <task id="LOCAL-00001" summary="study">
       <option name="closed" value="true" />
@@ -289,7 +291,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716766924187</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="study eval">
+      <option name="closed" value="true" />
+      <created>1717320514038</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1717320514038</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -310,14 +320,16 @@
     <MESSAGE value="study" />
     <MESSAGE value="study print" />
     <MESSAGE value="study input" />
-    <option name="LAST_COMMIT_MESSAGE" value="study input" />
+    <MESSAGE value="study eval" />
+    <option name="LAST_COMMIT_MESSAGE" value="study eval" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/aery_study_python$study_input.coverage" NAME="study_input Coverage Results" MODIFIED="1716766878063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/aery_study_python$study_base.coverage" NAME="study_base Coverage Results" MODIFIED="1717223265572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/aery_study_python$study_base__1_.coverage" NAME="study_base (1) Coverage Results" MODIFIED="1717320371394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/aery_study_python$study_base__1_.coverage" NAME="study_base (1) Coverage Results" MODIFIED="1717506345820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/aery_study_python$study_math.coverage" NAME="study_math Coverage Results" MODIFIED="1717318926632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/aery_study_python$study_print.coverage" NAME="study_print Coverage Results" MODIFIED="1717223465442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/aery_study_python$eval.coverage" NAME="eval Coverage Results" MODIFIED="1717298594201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/aery_study_python$study_control.coverage" NAME="study_control Coverage Results" MODIFIED="1717507333298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
