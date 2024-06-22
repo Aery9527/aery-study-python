@@ -1,14 +1,18 @@
 import math
 
+TITLE = """
+========================================================================
+{0:^64s}
+========================================================================"""
 RESULT = ">>>"
 
-print("\n### sep end")
+print(TITLE.format("sep end"))
 print("a", "b", "c", end="|")  # end是結尾符號
 print("a", "b", "c", sep=":")  # sep是分隔符號
 print("a", "b", "c", sep=":", end="\n")
 print("a", "b", "c", end="\n", sep=":")
 
-print("\n### %s %d %f %o %x|%X %e|%E")
+print(TITLE.format("%s   %d   %f   %o   %x|%X   %e|%E"))
 s = "python"
 i = 13.2
 o = 13
@@ -61,7 +65,7 @@ print("|%-16.4e|  %", e, RESULT, "|%-16.4e|" % e)
 print("|%016.4e|  %", e, RESULT, "|%016.4e|" % e)
 print("|%-016.4e| %", e, RESULT, "|%-016.4e|" % e)
 
-print("\n### {} format")
+print(TITLE.format("{} format"))
 var1 = "Aery"
 var2 = 55.66
 print('"{}|{}|".format("kerker", 9527)                              ', RESULT, "{}|{}|".format("kerker", 9527))
