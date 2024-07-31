@@ -19,7 +19,7 @@ a, b, c, d, e, f, g, h, i, j = list
 print(a, b, c, d, e, f, g, h, i, j)
 
 print(TITLE.format("slice, [start:stop:step]"))
-showFormat = "{0:<16s} {1} {2}"
+showFormat = "{0:<40s} {1} {2}"
 print(showFormat.format("list[1:]", RESULT, list[1:]))  # 從 1 開始 到最後一個
 print(showFormat.format("list[2:]", RESULT, list[2:]))  # 從 2 開始 到最後一個
 print(showFormat.format("list[2:-1]", RESULT, list[2:-1]))  # 從 2 開始 到倒數第2個
@@ -69,7 +69,20 @@ print(showFormat.format("a, b, *c = 1, 2, 3, 4, 5", RESULT, "{0} {1} {2}".format
 a, *b, c = 1, 2, 3, 4, 5
 print(showFormat.format("a, *b, c = 1, 2, 3, 4, 5", RESULT, "{0} {1} {2}".format(a, b, c)))
 
-print(TITLE.format("list 包含的方法"))
-list1Dir = dir(list)
-public_attributes = [attr for attr in list1Dir if not attr.startswith('_')]
-print(public_attributes)
+print(TITLE.format("串列可操作的方法"))
+list = [5, 7, 6, 9, 8, 1, 4, 5]
+listDir = dir(list)
+print(showFormat.format(f"dir({list})", RESULT, listDir))
+print(showFormat.format(f"dir({list}) filter '_'", RESULT, [attr for attr in listDir if not attr.startswith('_')]))
+
+list.append(0)
+list.clear()
+list.copy()
+list.count(5)
+list.extend([1, 2, 3])
+list.index(5)
+list.insert(0, 1)
+list.pop()
+list.remove(1)
+list.reverse()
+list.sort()
